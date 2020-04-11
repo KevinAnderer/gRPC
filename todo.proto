@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+
+service TodoService {
+
+    rpc findAllPreferredSuppliers(Empty) returns (ProductList) {}
+    rpc findPreferredSupplier(ProductSearch) returns (ProductSearch) {}
+    rpc setPreferredSupplierForProduct(ProductSupplier) returns (Empty) {}
+
+}
+
+message Empty {}
+
+message ProductList {
+
+    repeated Supplier supplier = 1;
+}
+message Supplier {
+
+    string name = 1;
+    int32 id = 2;
+}
+
+message ProductSearch {
+
+    string name = 1;
+}
+
+message ProductSupplier {
+
+    string pName = 1;
+    string sName = 2;
+}
+

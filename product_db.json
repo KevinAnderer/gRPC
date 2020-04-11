@@ -1,0 +1,36 @@
+[
+ {
+  "name": "ProduktA",
+  "id": 1,
+  "preferred": {
+   "name": "SupplierE",
+   "id": 5
+  }
+ },
+ {
+  "name": "ProduktB",
+  "id": 2,
+  "preferred": {}
+ },
+ {
+  "name": "ProduktC",
+  "id": 3,
+  "preferred": {
+   "name": "SupplierD",
+   "id": 4
+  }
+ },
+ {
+  "name": "ProduktD",
+  "id": 4,
+  "preferred": {}
+ },
+ {
+  "name": "ProduktE",
+  "id": 5,
+  "preferred": {
+   "name": "SupplierE",
+   "id": 5
+  }
+ }
+]
