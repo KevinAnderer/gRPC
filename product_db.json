@@ -10,7 +10,10 @@
  {
   "name": "ProduktB",
   "id": 2,
-  "preferred": {}
+  "preferred": {
+   "name": "SupplierD",
+   "id": 4
+  }
  },
  {
   "name": "ProduktC",
